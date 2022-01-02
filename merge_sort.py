@@ -6,7 +6,7 @@ def merge_sort(array):
       left=merge_sort(array[:midpoint])
       right=merge_sort(array[midpoint:])
       return merge(left, right)
-      
+
 def merge(left, right):
       result=[]
       left_index = 0
@@ -26,4 +26,5 @@ def merge(left, right):
 
 arr = [10, 5, 2, 3, 6, 54, 7, 326, 6,9]
 sorted_array = merge_sort(arr)
+print(arr)
 print(sorted_array)
