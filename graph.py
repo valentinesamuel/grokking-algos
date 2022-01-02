@@ -1,0 +1,9 @@
+graph = {}
+graph['you'] = ["alice", "bob", "claire"]
+graph['bob'] = ["anjul", "peggy"]
+graph['claire'] = ["thom", "jonny"]
+graph['alice'] = ["peggy"]
+graph["anjul"]=[]
+graph["peggy"]=[]
+graph["thom"]=[]
+graph["jonny"]=[]
