@@ -1,2 +1,2 @@
 # Data Structures : Grokking Algorithm
-This repo contains various sorting and searching algorithms
+This repo contains various sorting and searching algorithms implemented in Python 
